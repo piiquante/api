@@ -1,3 +1,4 @@
 import { getEnv } from "./dotenv";
+import { log, logFatal } from "./logger";
 
-export { getEnv };
+export { getEnv, log, logFatal };
