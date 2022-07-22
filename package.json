@@ -1,0 +1,28 @@
+{
+    "name": "piiquante-api",
+    "version": "1.0.0",
+    "description": "Back end for Piiquante",
+    "main": "src/main.js",
+    "type": "module",
+    "scripts": {
+        "watch": "nodemon",
+        "start": "yarn lint:fix && node src/main.js",
+        "lint": "eslint src",
+        "lint:fix": "yarn lint --fix"
+    },
+    "repository": "https://github.com/piiquante/api.git",
+    "author": {
+        "name": "Stévan Corre",
+        "email": "me@stevancorre.com",
+        "url": "https://stevancorre.com"
+    },
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+        "eslint": "^8.20.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "nodemon": "^2.0.19",
+        "prettier": "^2.7.1"
+    }
+}
