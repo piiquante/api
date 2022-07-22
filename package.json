@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "watch": "nodemon",
-        "start": "yarn lint:fix && node src/main.js",
+        "start": "yarn lint:fix && node --experimental-specifier-resolution=node --no-warnings src/main.js",
         "lint": "eslint src",
         "lint:fix": "yarn lint --fix"
     },
